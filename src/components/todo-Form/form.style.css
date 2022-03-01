@@ -1,0 +1,32 @@
+.search {
+  -webkit-appearance: none;
+  border-radius: 0.2em;
+  outline: none;
+  padding: 1px;
+  width: 400px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.search:focus {
+  transform: scale(1.05);
+}
+
+.search::placeholder {
+  text-align: center;
+}
+
+.button {
+  padding: 7px;
+  width: 80px;
+  border-radius: 0.5em;
+  transform: translateZ(0);
+  transition: transform 0.15s ease-out;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
